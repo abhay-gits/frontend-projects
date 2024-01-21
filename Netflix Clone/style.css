@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: grey;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.first-section{
+    background-image: url("images/background.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    margin: 0 120px;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img{
+    width: 9rem;
+    color: red;
+    fill: currentColor;
+}
