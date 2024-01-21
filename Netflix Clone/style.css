@@ -11,21 +11,108 @@ body{
     min-height: 100vh;
 }
 
-.first-section{
-    background-image: url("images/background.jpg");
+.first{
+    position: relative;
     width: 100vw;
     height: 100vh;
+    object-fit: cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/background.jpg");
 }
 
-.header{
+.first-header{
     margin: 0 120px;
-    padding: 24px 48px;
+    padding: 14px 48px;
     display: flex;
     justify-content: space-between;
 }
 
-.header img{
-    width: 9rem;
-    color: red;
-    fill: currentColor;
+.first-header img{
+    width: 12rem;
+    color: rgb(229,9,20);
+    fill: currentColor;   
+}
+.first-header-search select{
+    color: white;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid rgb(255, 255, 255,0.4);
+    background: transparent;
+}
+.first-header-search option{
+    background-color: white;
+    color: black;
+}
+.first-header-search button{
+    background-color: rgb(229,9,20);
+    color: white;
+    border: none;
+    padding: 9px;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.first-header-search button:hover{
+    background-color: rgb(212, 0, 0);
+}
+
+.first-body-h1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 90px;
+}
+.first-body-h1 h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.first-body p{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.first-body-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.first-body-input input{
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    height: 60px;
+    padding-left: 20px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+}
+
+.first-body-input button{
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    width: 15%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.first-body-input button:hover{
+    background-color: rgb(212, 0, 0);
 }
